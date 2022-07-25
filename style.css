@@ -2,18 +2,19 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: royalblue;
+    margin: 0px;
+    background-color: rgb(43, 66, 134);
 }
 
 .Hero{
     display: flex;
     justify-content: space-between;
     color: white;
-    padding-left: 200px;
-    padding-right: 200px;
     align-items: center;
     font-family: Georgia;
     font-weight: bold;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .logo{
@@ -28,4 +29,46 @@ body{
     gap: 32px;
     font-family: Georgia;
     font-weight: bold;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 48px;
+    color: white;
+    margin-top: 100px;
+}
+
+.body{
+    font-size: 24px;
+    color: white; 
+}
+
+.sign-up{
+background-color: #3882F6;
+border-radius: 5px;
+margin: 25px;
+border: none;
+color: white;
+font-weight: bold;
+text-align: center;
+padding: 15px 32px;
+display: block;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.right{
+margin-top: 100px;
+}
+
+.middle{
+    background-color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 20px;
 }
